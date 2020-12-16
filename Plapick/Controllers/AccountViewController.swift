@@ -14,7 +14,7 @@ class AccountViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = "계정"
-        navigationController?.navigationBar.prefersLargeTitles = true
+//        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
 }

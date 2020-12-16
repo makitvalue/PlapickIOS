@@ -14,7 +14,7 @@ class UploadViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = "새로운 게시물"
-        navigationController?.navigationBar.prefersLargeTitles = true
+//        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
 }
