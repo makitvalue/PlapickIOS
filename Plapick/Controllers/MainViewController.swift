@@ -10,21 +10,25 @@ import UIKit
 
 class MainViewController: UITabBarController {
     
-    var homeNavController: UINavigationController?
-    var uploadNavController: UINavigationController?
-    var accountNavController: UINavigationController?
+    var homeViewController: UINavigationController?
+    var locationViewController: UINavigationController?
+    var uploadViewController: UINavigationController?
+    var recommendViewController: UINavigationController?
+    var accountViewController: UINavigationController?
     
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         adjustColors()
     }
-    
+
     func adjustColors() {
-        
+
         // bottom tab bar 컬러 변경 inverted(반대 색상)
-        homeNavController?.tabBarItem.selectedImage = UIImage(systemName: "house.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
-        uploadNavController?.tabBarItem.selectedImage = UIImage(systemName: "plus.circle.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
-        accountNavController?.tabBarItem.selectedImage = UIImage(systemName: "person.circle.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
-        
+        homeViewController?.tabBarItem.selectedImage = UIImage(systemName: "house.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
+        locationViewController?.tabBarItem.selectedImage = UIImage(systemName: "location.circle.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
+        uploadViewController?.tabBarItem.selectedImage = UIImage(systemName: "plus.circle.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
+        recommendViewController?.tabBarItem.selectedImage = UIImage(systemName: "heart.circle.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
+        accountViewController?.tabBarItem.selectedImage = UIImage(systemName: "person.fill")?.withTintColor(UIColor.systemBackground.inverted, renderingMode: UIImage.RenderingMode.alwaysOriginal)
+
         if self.traitCollection.userInterfaceStyle == .dark {
             // 다크모드
         } else {
@@ -37,19 +41,27 @@ class MainViewController: UITabBarController {
         
         view.backgroundColor = .systemBackground
         
-        homeNavController = UINavigationController(rootViewController: HomeViewController())
-        uploadNavController = UINavigationController(rootViewController: UploadViewController())
-        accountNavController = UINavigationController(rootViewController: AccountViewController())
+//        tabBarController?.tabBar.isHidden = true
         
-        homeNavController?.tabBarItem.image = UIImage(systemName: "house")
-        uploadNavController?.tabBarItem.image = UIImage(systemName: "plus.circle")
-        accountNavController?.tabBarItem.image = UIImage(systemName: "person.circle")
+        homeViewController = UINavigationController(rootViewController: HomeViewController())
+        locationViewController = UINavigationController(rootViewController: LocationViewController())
+        uploadViewController = UINavigationController(rootViewController: UploadViewController())
+        recommendViewController = UINavigationController(rootViewController: RecommendViewController())
+        accountViewController = UINavigationController(rootViewController: AccountViewController())
         
-        viewControllers = [
-            homeNavController!,
-            uploadNavController!,
-            accountNavController!
-        ]
+        homeViewController?.tabBarItem.image = UIImage(systemName: "house")
+        locationViewController?.tabBarItem.image = UIImage(systemName: "location.circle")
+        uploadViewController?.tabBarItem.image = UIImage(systemName: "plus.circle")
+        recommendViewController?.tabBarItem.image = UIImage(systemName: "heart.circle")
+        accountViewController?.tabBarItem.image = UIImage(systemName: "person")
+        
+        setViewControllers([
+            homeViewController!,
+            locationViewController!,
+            uploadViewController!,
+            recommendViewController!,
+            accountViewController!
+        ], animated: false)
         
         adjustColors()
     }

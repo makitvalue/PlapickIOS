@@ -13,8 +13,11 @@ class UploadViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .systemBackground
+        
+        navigationController?.navigationBar.scrollEdgeAppearance = UINavigationBarAppearance()
+        navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "새로운 게시물"
-//        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
 }

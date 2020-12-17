@@ -120,7 +120,7 @@ class HotPlaItemView: UIView {
         }
         
         pc.isEnabled = false // clickable
-        pc.pageIndicatorTintColor = .systemGray4
+        pc.pageIndicatorTintColor = .separator
         
         pc.translatesAutoresizingMaskIntoConstraints = false
         return pc

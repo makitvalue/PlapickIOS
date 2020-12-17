@@ -95,9 +95,17 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .systemBackground
+        
         // 타이틀 세팅
+        // Large title 스크롤된 상태로 탭 이동했다 돌아오면 Large title이 유지되는데
+        // 이때 Large title 자체에 백그라운드를 심어줘서 어색하지 않도록 함
+        navigationController?.navigationBar.scrollEdgeAppearance = UINavigationBarAppearance()
+        navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "플레픽"
-//        navigationController?.navigationBar.prefersLargeTitles = true
+//        navigationController?.hidesBarsOnSwipe = true // 매직;
+//        navigationController?.hidesBarsOnTap = true
+        // navigationController.hides 보면 신기한거 많음
         
         // 네비게이션 우측에 검색버튼
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: UIBarButtonItem.Style.plain, target: self, action: nil)

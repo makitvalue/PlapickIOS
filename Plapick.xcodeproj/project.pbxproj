@@ -13,6 +13,17 @@
 		574BD2A7258A2AC3001DAE8C /* HotPla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BD2A6258A2AC3001DAE8C /* HotPla.swift */; };
 		574BD2AE258A2D38001DAE8C /* HotPlaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BD2AD258A2D38001DAE8C /* HotPlaItemView.swift */; };
 		574BD2B3258A3803001DAE8C /* HotPlaItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BD2B2258A3803001DAE8C /* HotPlaItemImageView.swift */; };
+		576A98F0258B195F00122010 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A98EF258B195F00122010 /* LocationViewController.swift */; };
+		576A98F3258B1DC400122010 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A98F2258B1DC400122010 /* RecommendViewController.swift */; };
+		576A990D258B2FF800122010 /* LocationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A990C258B2FF800122010 /* LocationTabView.swift */; };
+		576A9911258B367900122010 /* LocationTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A9910258B367900122010 /* LocationTabCell.swift */; };
+		576A9914258B3AF300122010 /* LocationPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A9913258B3AF300122010 /* LocationPageCell.swift */; };
+		576A9919258B428D00122010 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A9918258B428D00122010 /* LocationListViewController.swift */; };
+		576A991C258B429900122010 /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A991B258B429900122010 /* LocationMapViewController.swift */; };
+		576A9923258B459700122010 /* LocationParentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A9922258B459700122010 /* LocationParentTableViewController.swift */; };
+		576A9926258B45A500122010 /* LocationChildTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A9925258B45A500122010 /* LocationChildTableViewController.swift */; };
+		576A992C258B4B8B00122010 /* LocationParentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A992B258B4B8B00122010 /* LocationParentCell.swift */; };
+		576A992F258B4B9300122010 /* LocationChildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A992E258B4B9300122010 /* LocationChildCell.swift */; };
 		578D92C62588895900570EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578D92C52588895900570EC7 /* AppDelegate.swift */; };
 		578D92C82588895900570EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578D92C72588895900570EC7 /* SceneDelegate.swift */; };
 		578D92CA2588895900570EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578D92C92588895900570EC7 /* ViewController.swift */; };
@@ -33,6 +44,17 @@
 		574BD2A6258A2AC3001DAE8C /* HotPla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPla.swift; sourceTree = "<group>"; };
 		574BD2AD258A2D38001DAE8C /* HotPlaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPlaItemView.swift; sourceTree = "<group>"; };
 		574BD2B2258A3803001DAE8C /* HotPlaItemImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPlaItemImageView.swift; sourceTree = "<group>"; };
+		576A98EF258B195F00122010 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		576A98F2258B1DC400122010 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		576A990C258B2FF800122010 /* LocationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTabView.swift; sourceTree = "<group>"; };
+		576A9910258B367900122010 /* LocationTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTabCell.swift; sourceTree = "<group>"; };
+		576A9913258B3AF300122010 /* LocationPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPageCell.swift; sourceTree = "<group>"; };
+		576A9918258B428D00122010 /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
+		576A991B258B429900122010 /* LocationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
+		576A9922258B459700122010 /* LocationParentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationParentTableViewController.swift; sourceTree = "<group>"; };
+		576A9925258B45A500122010 /* LocationChildTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationChildTableViewController.swift; sourceTree = "<group>"; };
+		576A992B258B4B8B00122010 /* LocationParentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationParentCell.swift; sourceTree = "<group>"; };
+		576A992E258B4B9300122010 /* LocationChildCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationChildCell.swift; sourceTree = "<group>"; };
 		578D92C22588895900570EC7 /* Plapick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plapick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578D92C52588895900570EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578D92C72588895900570EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,14 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		574BD2952589E452001DAE8C /* models */ = {
+		574BD2952589E452001DAE8C /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				574BD2962589E4DB001DAE8C /* GallaryItem.swift */,
 				574BD29A2589E65B001DAE8C /* GallaryItemGroup.swift */,
 				574BD2A6258A2AC3001DAE8C /* HotPla.swift */,
 			);
-			path = models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		574BD29D2589E976001DAE8C /* Views */ = {
@@ -75,8 +97,20 @@
 				574BD2A32589EDA3001DAE8C /* GallaryItemGroupView.swift */,
 				574BD2AD258A2D38001DAE8C /* HotPlaItemView.swift */,
 				574BD2B2258A3803001DAE8C /* HotPlaItemImageView.swift */,
+				576A990C258B2FF800122010 /* LocationTabView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		576A9901258B238700122010 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				576A9910258B367900122010 /* LocationTabCell.swift */,
+				576A9913258B3AF300122010 /* LocationPageCell.swift */,
+				576A992B258B4B8B00122010 /* LocationParentCell.swift */,
+				576A992E258B4B9300122010 /* LocationChildCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		578D92B92588895900570EC7 = {
@@ -98,8 +132,9 @@
 		578D92C42588895900570EC7 /* Plapick */ = {
 			isa = PBXGroup;
 			children = (
+				576A9901258B238700122010 /* Cells */,
 				574BD29D2589E976001DAE8C /* Views */,
-				574BD2952589E452001DAE8C /* models */,
+				574BD2952589E452001DAE8C /* Models */,
 				578D92DF25888A6500570EC7 /* Uitls */,
 				578D92DA258889A200570EC7 /* Controllers */,
 				578D92C52588895900570EC7 /* AppDelegate.swift */,
@@ -120,6 +155,12 @@
 				578D92E725888BF100570EC7 /* HomeViewController.swift */,
 				578D92EB25888BFF00570EC7 /* UploadViewController.swift */,
 				578D92EE25888C0B00570EC7 /* AccountViewController.swift */,
+				576A98EF258B195F00122010 /* LocationViewController.swift */,
+				576A98F2258B1DC400122010 /* RecommendViewController.swift */,
+				576A9918258B428D00122010 /* LocationListViewController.swift */,
+				576A991B258B429900122010 /* LocationMapViewController.swift */,
+				576A9922258B459700122010 /* LocationParentTableViewController.swift */,
+				576A9925258B45A500122010 /* LocationChildTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -202,18 +243,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576A990D258B2FF800122010 /* LocationTabView.swift in Sources */,
+				576A98F0258B195F00122010 /* LocationViewController.swift in Sources */,
+				576A9919258B428D00122010 /* LocationListViewController.swift in Sources */,
+				576A98F3258B1DC400122010 /* RecommendViewController.swift in Sources */,
 				578D92E125888A7B00570EC7 /* Extensions.swift in Sources */,
 				578D92EC25888BFF00570EC7 /* UploadViewController.swift in Sources */,
 				574BD2AE258A2D38001DAE8C /* HotPlaItemView.swift in Sources */,
 				578D92EF25888C0B00570EC7 /* AccountViewController.swift in Sources */,
 				574BD29B2589E65B001DAE8C /* GallaryItemGroup.swift in Sources */,
+				576A992C258B4B8B00122010 /* LocationParentCell.swift in Sources */,
+				576A9926258B45A500122010 /* LocationChildTableViewController.swift in Sources */,
 				578D92CA2588895900570EC7 /* ViewController.swift in Sources */,
 				574BD2972589E4DB001DAE8C /* GallaryItem.swift in Sources */,
+				576A991C258B429900122010 /* LocationMapViewController.swift in Sources */,
 				574BD2B3258A3803001DAE8C /* HotPlaItemImageView.swift in Sources */,
 				578D92C62588895900570EC7 /* AppDelegate.swift in Sources */,
+				576A9914258B3AF300122010 /* LocationPageCell.swift in Sources */,
 				574BD2A7258A2AC3001DAE8C /* HotPla.swift in Sources */,
+				576A9923258B459700122010 /* LocationParentTableViewController.swift in Sources */,
 				578D92C82588895900570EC7 /* SceneDelegate.swift in Sources */,
+				576A9911258B367900122010 /* LocationTabCell.swift in Sources */,
 				578D92E825888BF100570EC7 /* HomeViewController.swift in Sources */,
+				576A992F258B4B9300122010 /* LocationChildCell.swift in Sources */,
 				578D92DC258889C100570EC7 /* MainViewController.swift in Sources */,
 				574BD2A42589EDA3001DAE8C /* GallaryItemGroupView.swift in Sources */,
 			);

@@ -1,14 +1,14 @@
 //
-//  AccountViewController.swift
+//  RecommendViewController.swift
 //  Plapick
 //
-//  Created by 서원영 on 2020/12/15.
+//  Created by 서원영 on 2020/12/17.
 //
 
 import UIKit
 
 
-class AccountViewController: UIViewController {
+class RecommendViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +17,7 @@ class AccountViewController: UIViewController {
         
         navigationController?.navigationBar.scrollEdgeAppearance = UINavigationBarAppearance()
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.title = "계정"
+        navigationItem.title = "추천 게시물"
     }
     
 }
